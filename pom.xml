@@ -3,7 +3,7 @@
   <groupId>org.onehippo</groupId>
   <artifactId>reportundefinedvariables</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <name>reportundefinedvariables</name>
   <url>http://maven.apache.org</url>
   <build>
@@ -48,5 +48,6 @@
     <connection>scm:git:git@github.com:mrop/reportundefinedvariables.git</connection>
     <url>scm:git:git@github.com:mrop/reportundefinedvariables.git</url>
     <developerConnection>scm:git:git@github.com:mrop/reportundefinedvariables.git</developerConnection>
+    <tag>reportundefinedvariables-1.0</tag>
   </scm>
 </project>
