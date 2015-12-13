@@ -14,7 +14,7 @@ public class LoggingUndefinedVariableReporter extends ClassResolverLoggingELReso
 
     @Override
     public void report(final String name) {
-        LOGGER.info("Variable with name:{} is not defined, trying to look name on classpath");
+        LOGGER.info("Variable with name:{} is not defined, trying to look name on classpath",name);
         super.report(name);
     }
 }
